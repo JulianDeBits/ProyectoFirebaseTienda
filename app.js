@@ -5,13 +5,13 @@ import {
 
 // Configuración de Firebase
 const firebaseConfig = {
-  apiKey: "AIzaSyB_RyDSWNbpPQ7jscN7uu6Hr1vm827ofSI",
-  authDomain: "db-pruebas-37531.firebaseapp.com",
-  projectId: "db-pruebas-37531",
-  storageBucket: "db-pruebas-37531.appspot.com",
-  messagingSenderId: "992341714286",
-  appId: "1:992341714286:web:cdb7b76c678d5ab6924d7f",
-  measurementId: "G-QBB6WG7N4P"
+  apiKey: "AIzaSyCa51rOo_SK2aqxw7a0xQeeFhnGL1fZLg0",
+  authDomain: "dbpruebas-775e2.firebaseapp.com",
+  projectId: "dbpruebas-775e2",
+  storageBucket: "dbpruebas-775e2.firebasestorage.app",
+  messagingSenderId: "346017370226",
+  appId: "1:346017370226:web:f808d8e76f206af9e172eb",
+  measurementId: "G-YBN8TFZRBS"
 };
 
 const app = initializeApp(firebaseConfig);
