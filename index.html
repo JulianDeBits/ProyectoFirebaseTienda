@@ -28,6 +28,48 @@
     </form>
 
     <div id="productos" class="row"></div>
+
+    <hr class="my-5">
+
+    <h2>👤 Registro de Clientes</h2>
+    <form id="formCliente" class="mb-4">
+      <div class="row g-2">
+        <div class="col-md-4">
+          <input type="text" id="clienteNombre" class="form-control" placeholder="Nombre del cliente" required>
+        </div>
+        <div class="col-md-4">
+          <input type="email" id="clienteCorreo" class="form-control" placeholder="Correo" required>
+        </div>
+        <div class="col-md-4">
+          <button class="btn btn-success w-100" type="submit">Registrar Cliente</button>
+        </div>
+      </div>
+    </form>
+
+    <div id="clientes" class="row mb-5"></div>
+
+    <hr class="my-5">
+
+    <h2>🧾 Registrar Venta</h2>
+    <form id="formVenta" class="mb-4">
+      <div class="row g-2">
+        <div class="col-md-6">
+          <input type="text" id="buscadorProducto" class="form-control" placeholder="Buscar producto por nombre" required>
+          <div id="sugerenciasProducto" class="list-group position-absolute w-50 z-3"></div>
+        </div>
+        <div class="col-md-2">
+          <input type="number" id="cantidadVenta" class="form-control" placeholder="Cantidad" required>
+        </div>
+        <div class="col-md-4">
+          <button class="btn btn-primary w-100" type="submit">Agregar Venta</button>
+        </div>
+      </div>
+    </form>
+
+    <div id="resultadoVenta" class="mt-3"></div>
+
+    <div id="ventas" class="row mt-4"></div>
+
   </div>
 </body>
 </html>
